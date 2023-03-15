@@ -1,0 +1,89 @@
+[{"idx": 0,
+    "title": "Test metric 1", "data":[
+    {"idx":3,
+        "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+    "score":1.6657,
+    "label": "Circle USDC Treasury",
+    "label_confidence":"high"},
+    {"idx":4,
+        "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+    "score":1.5,
+    "label": "orca RLB/USDC pool",
+    "label_confidence":"low"}
+    ]
+    },
+    {"idx": 1,
+    "title": "Test metric 2", "data":[
+        {"idx":5,
+            "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+        "score":22,
+        "label": "Circle USDC Treasury",
+        "label_confidence":"high"},
+        {"idx":55,
+            "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+        "score":11,
+        "label": "orca RLB/USDC pool",
+        "label_confidence":"low"}
+        ]
+        }
+        ,
+    {"idx": 101,
+    "title": "Test metric 3", "data":[
+        {"idx":5,
+            "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+        "score":22,
+        "label": "Circle USDC Treasury",
+        "label_confidence":"high"},
+        {"idx":55,
+            "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+        "score":11,
+        "label": "orca RLB/USDC pool",
+        "label_confidence":"low"}
+        ]
+        }
+        ,
+    {"idx": 102,
+    "title": "Test metric 4", "data":[
+        {"idx":5,
+            "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+        "score":22,
+        "label": "Circle USDC Treasury",
+        "label_confidence":"high"},
+        {"idx":55,
+            "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+        "score":11,
+        "label": "orca RLB/USDC pool",
+        "label_confidence":"low"}
+        ]
+        }
+        ,
+    {"idx": 103,
+    "title": "Test metric 5", "data":[
+        {"idx":5,
+            "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+        "score":22,
+        "label": "Circle USDC Treasury",
+        "label_confidence":"high"},
+        {"idx":55,
+            "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+        "score":11,
+        "label": "orca RLB/USDC pool",
+        "label_confidence":"low"}
+        ]
+        }
+        ,
+    {"idx": 104,
+    "title": "Test metric 6", "data":[
+        {"idx":5,
+            "addr": "41zCUJsKk6cMB94DDtm99qWmyMZfp4GkAhhuz4xTwePu",
+        "score":22,
+        "label": "Circle USDC Treasury",
+        "label_confidence":"high"},
+        {"idx":55,
+            "addr": "3vXZLMWPjuVRiSpjF3zLtvoRYAm2DLdu3DBEfQHZsW1x",
+        "score":11,
+        "label": "orca RLB/USDC pool",
+        "label_confidence":"low"}
+        ]
+        }
+]
