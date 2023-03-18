@@ -24,4 +24,39 @@ This will be updated over time as progress is made!
 * Better UI
 
 # Usage
-Coming soon!
+1. Clone the repo
+```bash
+git clone https://github.com/uncommon-insights/Linkalysis_fullstack.git
+```
+2. You must already have the computed metrics for tokens uploaded to MongoDB. If not, see the repo [here](https://github.com/uncommon-insights/network_analysis) to do so.
+3. You must already have a list of NFT transactions for a trading ring uploaded to MongoDB. From the repo [here](https://github.com/uncommon-insights/nft_data_download), compute metrics or use our precomputed metrics in `timeseries/metrics.bson`. Then pick a trading ring `cluster_number` (found in the attribute `clique_member` which is an array of `(cluster_number, cluster_size)` tuples) and extract all addresses and thus NFT transactions involved in that ring.
+4. Let's setup the server and install dependencies. You need to have [NodeJS](https://nodejs.org/) installed 
+```bash
+cd server
+npm install
+```
+5. Open `config.env` and replace `ATLAS_URI` with your MongoDB connection string. Also edit `PORT` to one of your choice (note that this is DIFFERENT from the MongoDB/ client port!)
+6. Open `routes/record.js` and edit the two `db_connect` variables to the names of your NFT and token db respectively. Also note the parameters for `db_connect.collection()` and edit them to suit your collection name within the db
+
+7. Run the server
+```bash
+npm start
+```
+
+8. Now let's work on the client. Open up another terminal and go to the client folder, install dependencies.
+```bash
+cd client
+npm install
+```
+
+9. You may need to edit the GET urls in the parameter of `fetch` in the files `src/components/NFT.jsx` and `src/components/GetInitial.jsx` to suit your server configuration
+
+10. You may need to edit the `tName` in `src/components/Token.jsx` to your collection name for the token data.
+
+11. Edit the image in `src/imgs/` to one you wish to display for the NFT trading ring example
+
+12. Start the client
+```bash
+npm start
+```
+
