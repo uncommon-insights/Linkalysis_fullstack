@@ -20,6 +20,7 @@ We understand that the hackathon evaluation can only be done on progress made du
 
 ## Progress post hackathon period
 This will be updated over time as progress is made!
+* [Youtube video](https://www.youtube.com/watch?v=6kFaWKXq9qM), presented in front of a live audience during the hackathon but only uploaded afterwards.
 * Included README for the github repos
 * Better UI
 
