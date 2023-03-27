@@ -22,7 +22,7 @@ We understand that the hackathon evaluation can only be done on progress made du
 This will be updated over time as progress is made!
 * [Youtube video](https://www.youtube.com/watch?v=6kFaWKXq9qM), presented in front of a live audience during the hackathon but only uploaded afterwards.
 * Included README for the github repos
-* Better UI, see demo video [here](https://www.youtube.com/watch?v=vXY2fprT7fw)
+* Better UI, see demo site [here](https://linkalysis.azurewebsites.net/)
 
 # Usage
 1. Clone the repo
